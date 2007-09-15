@@ -1,7 +1,7 @@
 %define real_name FileHandle-Unget
 %define	name perl-%{real_name}
 %define	version 0.1621
-%define	release %mkrel 1
+%define	release %mkrel 2
 
 Summary:	FileHandle-Unget module for perl 
 Name:		%{name}
