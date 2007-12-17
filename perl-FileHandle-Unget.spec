@@ -13,7 +13,6 @@ URL:		http://www.cpan.org
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{real_name}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 FileHandle-Unget module for perl
