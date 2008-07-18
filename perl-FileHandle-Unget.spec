@@ -3,7 +3,7 @@
 %define	version 0.1622
 %define	release %mkrel 1
 
-Summary:	FileHandle-Unget module for perl 
+Summary:    Perl modules that allow to place back more than one byte on a Filehandle
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
@@ -16,7 +16,9 @@ BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
-FileHandle-Unget module for perl
+FileHandle::Unget is a perl module that is a drop-in replacement for the 
+standard FileHandle perl module. It allows more than one byte to be placed back
+on the input.
 
 %prep
 %setup -q -n %{real_name}-%{version} 
