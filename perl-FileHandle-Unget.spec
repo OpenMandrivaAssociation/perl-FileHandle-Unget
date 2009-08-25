@@ -4,6 +4,7 @@
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
 Release:    %mkrel 1
+Epoch:      1
 
 Summary:    Perl modules that allow to place back more than one byte on a Filehandle
 License:	GPL+ or Artistic
