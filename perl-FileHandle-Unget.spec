@@ -1,5 +1,5 @@
 %define upstream_name    FileHandle-Unget
-%define	upstream_version 0.1622
+%define	upstream_version 0.1623
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -10,7 +10,7 @@ Summary:    Perl modules that allow to place back more than one byte on a Fileha
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://www.cpan.org
-Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
