@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Release:	6
 Epoch:		1
 
 Summary:	Perl modules that allow to place back more than one byte on a Filehandle
