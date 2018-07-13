@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		http://www.cpan.org
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	perl(inc::Module::Install)
 BuildRequires:	perl-devel
 
 %description
