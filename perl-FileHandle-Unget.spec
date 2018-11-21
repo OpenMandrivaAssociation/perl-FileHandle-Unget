@@ -1,5 +1,5 @@
 %define modname	FileHandle-Unget
-%define	modver	0.1623
+%define	modver	0.1634
 
 Summary:	Perl modules that allow to place back more than one byte on a Filehandle
 Name:		perl-%{modname}
@@ -12,6 +12,7 @@ Url:		http://www.cpan.org
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(inc::Module::Install)
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 
 %description
@@ -23,14 +24,14 @@ on the input.
 %setup -qn %{modname}-%{modver}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
-%make
+%__perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
+%make_build
 
 %check
 make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc CHANGES LICENSE README
