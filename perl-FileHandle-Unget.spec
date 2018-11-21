@@ -13,6 +13,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{modname}-%{modver
 BuildArch:	noarch
 BuildRequires:	perl(inc::Module::Install)
 BuildRequires:	perl(Test::More)
+BuildRequires:	perl(Test::Compile)
 BuildRequires:	perl-devel
 
 %description
