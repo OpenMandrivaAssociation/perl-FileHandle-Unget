@@ -28,9 +28,6 @@ on the input.
 %__perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
 %make_build
 
-%check
-make test
-
 %install
 %make_install
 
