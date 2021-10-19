@@ -22,10 +22,10 @@ standard FileHandle perl module. It allows more than one byte to be placed back
 on the input.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
+perl Makefile.PL INSTALLDIRS=vendor OPTIMIZE="%{optflags}"
 %make_build
 
 %install
@@ -34,5 +34,5 @@ on the input.
 %files
 %doc CHANGES LICENSE README
 %{perl_vendorlib}/FileHandle/Unget.pm
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
 
