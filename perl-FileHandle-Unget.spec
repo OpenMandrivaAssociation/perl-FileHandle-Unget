@@ -5,7 +5,7 @@ Summary:	Perl modules that allow to place back more than one byte on a Filehandl
 Name:		perl-%{modname}
 Epoch:		1
 Version:	%perl_convert_version %{modver}
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://www.cpan.org
