@@ -8,7 +8,7 @@ Version:	%perl_convert_version %{modver}
 Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://www.cpan.org
+Url:		https://www.cpan.org
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(inc::Module::Install)
