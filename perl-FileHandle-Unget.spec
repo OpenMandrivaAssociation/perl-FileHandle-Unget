@@ -4,12 +4,12 @@
 Summary:	Perl modules that allow to place back more than one byte on a Filehandle
 Name:		perl-%{modname}
 Epoch:		1
-Version:	%perl_convert_version %{modver}
-Release:	2
+Version:	%{modver}
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://www.cpan.org
-Source0:	http://search.cpan.org/CPAN/authors/id/D/DC/DCOPPIT/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/coppit/filehandle-unget
+Source0:	https://cpan.metacpan.org/authors/id/D/DC/DCOPPIT/FileHandle-Unget-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(inc::Module::Install)
