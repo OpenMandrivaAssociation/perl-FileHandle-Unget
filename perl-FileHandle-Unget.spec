@@ -5,7 +5,7 @@ Summary:	Perl modules that allow to place back more than one byte on a Filehandl
 Name:		perl-%{modname}
 Epoch:		1
 Version:	%{modver}
-Release:	3
+Release:	4
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/coppit/filehandle-unget
@@ -14,7 +14,6 @@ BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(inc::Module::Install)
 BuildRequires:	perl(Test::More)
-BuildRequires:	perl(Test::Compile)
 BuildRequires:	perl-devel
 
 %description
